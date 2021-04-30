@@ -1,0 +1,56 @@
+body{
+    background-color: lightgray;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.carosel{
+    vertical-align: middle; 
+    display: inline-block;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+}
+.carosel-section{
+    max-width: 700px;
+}
+.slide-image{
+    width: calc(100% - 150px);
+    height: 450px;
+}
+.border-circle{
+    height: 25px;
+    width: 25px;
+    border:1px solid #006aff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+}
+
+.abs-right{
+    position: absolute;
+    right: 25%;
+}
+.abs-left{
+    position: absolute;
+    left: 25%;
+}
+
+.slider-text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bigger-font{
+    font-size: 30px;
+}
+
+.my-btn{
+    font-size: 25px;
+}
+
+.currentBall{
+    background-color: #006aff;
+}
