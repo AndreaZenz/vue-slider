@@ -23,14 +23,14 @@
                         <i class="fa fa-chevron-left" aria-hidden="true"></i>
                     </a>
                 </div>
-                <div class="carosel slide-image" @s>
+                <div class="carosel slide-image">
                     <div v-for="i of [currentIndex]">
                         <img :src="images[currentIndex]" class="img-responsive">
                     </div>
 
                 </div>
                 <div class="bigger-font carosel carosel-freccia">
-                    <a href="#" class=" my-btn" @click="next">
+                    <a href="#" class=" my-btn" @click="next" @keyup="next">
                         <i class="fa fa-chevron-right abs-right" aria-hidden="true"></i>
                     </a>
                 </div>
