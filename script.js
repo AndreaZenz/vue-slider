@@ -22,8 +22,11 @@ const app = new Vue({
         currentIndex: 0,
 
     },
+
     mounted: function () {
         this.startSlide();
+
+        document.querySelector(".carosel-section").focus()
 
         
     },
